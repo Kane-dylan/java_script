@@ -27,4 +27,4 @@ const url = "https://github.com-kane/dylan"
 console.log(url.replace("-","/"))
 
 
-console.log(lolcat.split('-'))
+console.log(lolcat.split('-'));
