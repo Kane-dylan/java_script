@@ -19,3 +19,5 @@ console.log(Math)
 console.log(Math.abs(-5))
 console.log(Math.round(78.28))
 console.log(Math.min())
+
+console.log(Math.max(4,85,93,587,942))
