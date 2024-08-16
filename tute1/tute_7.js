@@ -21,3 +21,14 @@ console.log(Math.round(78.28))
 console.log(Math.min())
 
 console.log(Math.max(4,85,93,587,942))
+
+
+
+console.log(Math.random())
+console.log((Math.random()*10)+1)
+
+//formula of generating random numbers between some range
+const min=10
+const max=20
+console.log(Math.floor(Math.random()*(max-min+1)+(min)))
+
