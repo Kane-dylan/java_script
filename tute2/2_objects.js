@@ -31,5 +31,68 @@ chudirVi.greeting1 = function(){
   console.log(`i will got you, ${this["full name"]}`)
 }
 
-console.log(chudirVi.greeting())
-console.log(chudirVi.greeting1())
+// console.log(chudirVi.greeting())
+// console.log(chudirVi.greeting1())
+
+
+// object singleton
+
+// const bumbleUser=Object()
+const bumbleUser={}
+bumbleUser.name="jain"
+bumbleUser.gmail="stree@stree2.com"
+bumbleUser.login=true
+
+
+// console.log(bumbleUser);
+
+const user={
+  email:"nocode@make.com",
+  userName:{
+    fullName:{
+      firstName: "kesta",
+      lastName: "panja"
+    },
+    userId:{
+      id:984267
+    }
+  }
+}
+
+
+console.log(user.userName.userId);
+
+
+
+const obj1 = {a: 2, b: 5}
+const obj2 = {c: 9, d: 4}
+const obj3 = {m: 7, h: 6}
+
+
+// const obj4 = {obj1,obj2,obj3}   ** we must avoid this procedure
+// const obj4 = Object.assign({},obj1,obj2,obj3)
+const obj4 = {...obj1,...obj2,...obj3}
+console.log(obj4);
+
+const customer =[
+  {
+    id:67,
+    mail:"kalu@gmail.com",
+  },
+  {
+    id:68,
+    mail:"lalu@gmail.com",
+  },
+  {
+    id:69,
+    mail:"kaku@gmail.com",
+  }
+]
+
+customer[1].mail
+console.log(bumbleUser)
+console.log(Object.keys(bumbleUser))
+console.log(Object.values(bumbleUser))
+console.log(Object.entries(bumbleUser))
+
+console.log(bumbleUser.hasOwnProperty("gmails"))
