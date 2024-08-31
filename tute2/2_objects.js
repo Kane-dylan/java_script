@@ -96,3 +96,15 @@ console.log(Object.values(bumbleUser))
 console.log(Object.entries(bumbleUser))
 
 console.log(bumbleUser.hasOwnProperty("gmails"))
+
+
+const course ={
+  coursename: "js",
+  price: 0,
+  CourseInstructor: "hritesh"
+}
+
+// console.log(course.CourseInstructor)  instate of this line we will be using d-structure.
+
+const {coursename:kok} = course
+console.log(kok)
