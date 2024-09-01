@@ -45,3 +45,4 @@ console.log(addTwo(5));  // in this case we cannot call function before declarat
 const  addTwo = function(num) {
   return num + 2;
 }
+addTwo
