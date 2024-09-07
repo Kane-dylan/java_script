@@ -38,5 +38,5 @@ console.log(val1)
 
 // ternary operator 
 const coffee = 200
-coffee <= 100 ? console.log("coffee is more than 100"): console.log("coffee is more than 100");
+coffee <= 100 ? console.log("coffee is more than 100"): console.log("coffee is more than 100w");
 ;
