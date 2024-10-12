@@ -64,3 +64,9 @@ const point1 = 1
 const point2 = 2
 const point3 = 3
 console.log(Array.of(point1,point2,point3))
+
+arr = [1,2,3,4,5,6,7,8,9,10]
+console.log(arr.every((i)=> i<10))
+console.log(arr.some((i)=> i<10))
+//array methods
+arr.forEach((i)=> console.log(i))
