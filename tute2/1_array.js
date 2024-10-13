@@ -60,6 +60,7 @@ console.log(Array.isArray("lolcat"))
 console.log(Array.from("lolcat"))
 console.log(Array.from({name: "lolcat"})) // special case , we have to specify the key here 
 
+
 const point1 = 1
 const point2 = 2
 const point3 = 3
